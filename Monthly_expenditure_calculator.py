@@ -19,6 +19,7 @@ while True:
     print("2. Calculate total expenditure")
     print("3. Quit")
     
+    #Take the user s choice
     choice = input("Enter your choice (1/2/3): ")
     
     if choice == '1':
