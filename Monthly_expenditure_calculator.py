@@ -5,6 +5,7 @@ expenditures = {}
 def add_expenditure():
     # Ask the name of the expenditure
     name = input("Enter expenditure name: ")
+    # Ask the cost of the expenditure
     amount = float(input("Enter expenditure amount: "))
     expenditures[name] = amount
 
