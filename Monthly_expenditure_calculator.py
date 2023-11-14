@@ -1,8 +1,9 @@
 # Initialize an empty dictionary to store expenditures
 expenditures = {}
 
-# Function to add an expenditure
+# Function to add the expenditure
 def add_expenditure():
+    # Ask the name of the expenditure
     name = input("Enter expenditure name: ")
     amount = float(input("Enter expenditure amount: "))
     expenditures[name] = amount
