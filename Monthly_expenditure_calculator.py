@@ -1,4 +1,4 @@
-# Initialize an empty dictionary to store expenditures
+# Initialize an empty dictionary to store expenditures name
 expenditures = {}
 
 # Function to add the expenditure
